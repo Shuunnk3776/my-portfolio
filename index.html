@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:700"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <h2>ポートフォリオ</h2>
+    <header class="header">my portfolio</header>
+    <div class="img">
+      <img src="portfolio.jpg" alt="城の写真" />
+      <p>SHUNSUKE NOBUOKA</p>
+    </div>
+
+    <main class="main">
+      <div id="about-me">
+        <div id="about-me-text">about me/click for more info</div>
+        <div id="profile-container">
+          <div id="profile-items">
+            <ul id="profile">
+              name
+              <li id="profile-item1">信岡　駿良/Shunsuke Nobuoka</li>
+            </ul>
+
+            <ul id="profile">
+              university
+              <li id="profile-item2">広島大学</li>
+            </ul>
+
+            <ul id="profile">
+              hobbies
+              <li id="profile-item3">B’z、ギター、FPS ...</li>
+            </ul>
+
+            <ul id="profile">
+              hometown
+              <li id="profile-item4">広島県福山市</li>
+            </ul>
+          </div>
+          <div id="about-me-comment"></div>
+        </div>
+        <div class="now-song">
+          <div id="reco-text">recommendation is ...</div>
+          <h1>今の時間におすすめのB’zソングは...</h1>
+          <div id="reco-container">
+            <p id="reco"></p>
+            <p id="reco-comment"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer"></footer>
+
     <script src="main.js"></script>
   </body>
 </html>

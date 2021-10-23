@@ -1,0 +1,129 @@
+html {
+  font-family: "Amatic SC", cursive;
+  background-image: url(木.jpg);
+  background-repeat: repeat;
+}
+
+.header {
+  font-size: 70px;
+  text-align: center;
+  color: #474b42;
+
+  height: 110px;
+  width: 100vw;
+
+  /*位置を固定してスクロール時でも表示させる*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url(麻.jpg);
+  background-repeat: repeat-x;
+
+  /*レイヤーの優先順位*/
+  z-index: 100;
+}
+
+.footer {
+  background: linear-gradient(45deg, #000b00, #316745, #241a08);
+  height: 50px;
+  width: 100vw;
+}
+
+.img img {
+  width: 100vw; /*画面幅の１００％*/
+}
+
+.img p {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  font-size: 3em;
+  padding-left: 20px;
+  color: blanchedalmond;
+  z-index: 30;
+}
+
+.main {
+  margin: 10px;
+  padding: 15px;
+}
+
+#about-me {
+  margin-top: 13px;
+}
+
+#profile-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile-items {
+  width: 50vw;
+}
+
+#about-me-text,
+#reco-text {
+  font-size: 40px;
+  background: linear-gradient(45deg, #eee8aa, #faf0e6, #ffe4b5);
+  padding-left: 20px;
+  /*border-radiusと数値(半径)を入力　bottom-left等加えることで場所指定*/
+  border-top-left-radius: 20px;
+}
+
+#about-me-comment {
+  font-family: sans-serif;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-left: 10px;
+  border-radius: 20px;
+  width: 50vw;
+
+  text-align: center;
+  color: #474b42;
+  font-size: 20px;
+  font-weight: bolder; /*font-weightで太さ*/
+}
+
+#profile {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #474b42;
+  margin-left: 10px;
+}
+
+.now-song {
+  margin-top: 30px;
+}
+
+.now-song h1 {
+  color: #474b42;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+#reco {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #474b42;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+#reco-comment {
+  font-family: sans-serif;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: #474b42;
+}
